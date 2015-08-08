@@ -39,4 +39,4 @@ The master files contain the result of filtering, smoothing, aligning, and resam
 All information that could be used to identify subjects has been removed. In building our models, we attempted to avoid overfitting due to autocorrelation by separating training and testing sets according to subject number and not random choices from the concatenated timeseries. The master data file provided here does not have subject numbers built in; such "all-but-one" files were created separately from the raw data and can be done using the scripts provided here. We have included `allbut3.json` and `only3.json` for anyone who wants one such split for testing ideas.
 
 #### Not presently included
-We do not currently include the `C#` code for ingesting raw Kinect data or the code for the WebGL-based web application used to process and clean the data in this repository. 
+We do not currently include the C# code for ingesting raw Kinect data or the code for the WebGL-based web application used to process and clean the data in this repository. 
